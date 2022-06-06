@@ -73,5 +73,14 @@ for (let i = 0; i < footballTeams.length; i++) {
     let points = Math.floor(Math.random() * 100);
     let fouls = Math.floor(Math.random() * 100);
 
+    /* console.log("points", points);
+    console.log("fouls", fouls); */
 
+    // sovrascrivere le proprietà con una varaibile omonima
+    footballTeams[i].points = points;
+    footballTeams[i].fouls = fouls;
 }
+
+
+console.table(footballTeams);
+
