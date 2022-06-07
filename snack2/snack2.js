@@ -92,7 +92,7 @@ for (let i = 0; i < footballTeams.length; i++) {
     // destructuring, pushare nel nuovo array lista di nomi dell'array originale + i fouls con numeri random
     footballNewList.push({
         name: footballTeams[i].name,
-        fouls,
+        fouls: footballTeams[i].fouls,
         });
 }
 

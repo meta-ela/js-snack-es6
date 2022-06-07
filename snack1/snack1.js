@@ -36,7 +36,7 @@ console.table(bikesList);
 
 // destructuring crei due variabili nominativi = a bikesList, parte da indice 0
 let {name, weight} = bikesList[0];
-console.log(name, weight);  /* perchè name deprecato???*/
+console.log(name, weight);  
 
 let bikeLessWeight = {
     name,
